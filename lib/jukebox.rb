@@ -51,7 +51,8 @@ def run
   case user_input
     when "help"
       help
-    when ""
+    when "list"
+      
 
 
 
