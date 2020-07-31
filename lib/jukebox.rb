@@ -57,6 +57,7 @@ def run
     elsif user_input == "play"
       return play(songs)
     end
+    i += 1
   end
 end
 
