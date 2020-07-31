@@ -53,9 +53,9 @@ def run
     elsif user_input == "help"
       return help(songs)
     elsif user_input == "list"
-      return list(songs)
+      return list
     elsif user_input == "play"
-      return play(songs)
+      return play
     end
     i += 1
   end
