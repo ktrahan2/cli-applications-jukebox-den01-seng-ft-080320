@@ -50,6 +50,7 @@ def run
   while i != "exit" do
     if user_input == "exit"
       return exit_jukebox
+      break
     elsif user_input == "help"
       return help(songs)
     elsif user_input == "list"
