@@ -57,7 +57,6 @@ def run
     elsif user_input == "play"
       return play
     end
-    i += 1
   end
 end
 
