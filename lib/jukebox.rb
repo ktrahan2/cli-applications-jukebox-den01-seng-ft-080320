@@ -44,9 +44,9 @@ def exit_jukebox
 end
 
 def run
+  i = " "
   puts "Please enter a command:"
   user_input = gets.strip
-  i = " "
   while i != "exit" do
     if user_input == "exit"
       return exit_jukebox
