@@ -49,18 +49,9 @@ def run
   puts "Please enter a command:"
   user_input = gets.downcase.strip
   case user_input
-    while "help" "exit"
-      return exit_jukebox
-      break
-    elsif user_input == "help"
-      return help(songs)
-    elsif user_input == "list"
-      return list
-    elsif user_input == "play"
-      return play
-    end
-  end
-end
+    when "help"
+      help
+    when ""
 
 
 
