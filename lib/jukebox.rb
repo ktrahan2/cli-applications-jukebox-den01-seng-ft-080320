@@ -48,16 +48,18 @@ def run
   user_input = gets.strip
   i = nil
   while i != "exit" do
-  if user_input == "exit"
-    return exit_jukebox
-  elsif user_input == "help"
-    return help(songs)
-  elsif user_input == "list"
-    return list(songs)
-  elsif user_input == "play"
-    return play(songs)
+    if user_input == "exit"
+      return exit_jukebox
+    elsif user_input == "help"
+      return help(songs)
+    elsif user_input == "list"
+      return list(songs)
+    elsif user_input == "play"
+      return play(songs)
+    end
   end
 end
+
 
 
 
