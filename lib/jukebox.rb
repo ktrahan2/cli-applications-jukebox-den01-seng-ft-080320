@@ -45,9 +45,9 @@ end
 
 def run
   user_input = " "
+  while user_input
   puts "Please enter a command:"
   user_input = gets.downcase.strip
-  while i != "exit" do
     if user_input == "exit"
       return exit_jukebox
       break
